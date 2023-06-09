@@ -17,3 +17,6 @@ setup.py makes it a executable
 1. python executewsl.py
 2. python payment_checker.py
 3. python setup.py build  
+
+
+then uyou have an executable that you ran run on any win 11 machine

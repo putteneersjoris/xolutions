@@ -1,0 +1,19 @@
+
+
+
+building a standalone app that can read rasterized pdfs, convert them to text,  searching through the text for integers of 6 decimals. stores it in a list. compares this list with a given input, and prints out which integers from input field do or do not exist in the list. 
+ui=tkinter
+to make the app executable as a exe file, cx_Freeze is used
+
+instructions to use and build
+
+executewsl runs the wsl server, executes pdftotext and converts them to text
+run this first to generate the .txt inputs
+payment checker.py compares the list in a tkinter app
+setup.py makes it a executable
+
+
+
+1. python executewsl.py
+2. python payment_checker.py
+3. python setup.py build  
